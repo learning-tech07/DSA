@@ -43,7 +43,7 @@ public class Main {
         for(int i = top; i>=0;i--){
             System.out.print(a[i]+" ");
         }
-       
+        System.out.println();   
     }
 
     public static void main(String[] args) {
@@ -54,7 +54,7 @@ public class Main {
         m1.push(9);
         m1.push(1);
         m1.display();
-        System.out.println();
+        
         m1.peek();
         m1.pop();
         m1.display();
