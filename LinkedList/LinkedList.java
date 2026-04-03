@@ -13,7 +13,6 @@ public class LinkedList{
         Node newNode = new Node(d);
         if(head==null){
             head = newNode;
-            newNode = head;
             return;
         }
         newNode.next=head;
